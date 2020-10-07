@@ -1,0 +1,17 @@
+﻿  Vectors.cpp
+C:\Users\1\source\repos\Vectors\Vectors\Vector.h(113,2): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\1\source\repos\Vectors\Vectors\Vector.h(110): message : во время компиляции функции-члена класс шаблон "void Vector<int>::insert(T,unsigned int)"
+          with
+          [
+              T=int
+          ]
+C:\Users\1\source\repos\Vectors\Vectors\Vectors.cpp(10): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Vector<int>::insert(T,unsigned int)"
+          with
+          [
+              T=int
+          ]
+C:\Users\1\source\repos\Vectors\Vectors\Vectors.cpp(9): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<int>"
+C:\Users\1\source\repos\Vectors\Vectors\Vector.h(25,2): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\1\source\repos\Vectors\Vectors\Vector.h(20): message : во время компиляции функции-члена класс шаблон "Vector<int>::Vector(size_t)"
+C:\Users\1\source\repos\Vectors\Vectors\Vectors.cpp(9): message : выполняется компиляция ссылки на экземпляр шаблон функции "Vector<int>::Vector(size_t)"
+  Vectors.vcxproj -> C:\Users\1\source\repos\Vectors\Debug\Vectors.exe
